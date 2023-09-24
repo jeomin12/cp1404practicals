@@ -27,10 +27,10 @@ def main():
 
         else:
             print("Invalid option")
-            print(MENU)
-            choice = input(">>> ").upper()
+        print(MENU)
+        choice = input(">>> ").upper()
 
-    print("Thank you.")
+    print("Thank you")
 
 def convert_celsius_to_fahrenheit(celsius):
     """Convert celsius to fahrenheit."""
@@ -39,6 +39,8 @@ def convert_celsius_to_fahrenheit(celsius):
 def convert_fahrenheit_to_celsius(fahrenheit):
     """Convert fahrenheit to celsius."""
     return 5 / 9 * (fahrenheit - 32)
+
+main()
 
 
 
