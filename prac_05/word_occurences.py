@@ -12,7 +12,7 @@ for word in text.split():
     else:
         word_counts[word] = 1
 
-
+longest_word_length = max(len(word) for word in word_counts.keys())
 for word in sorted(word_counts):
-    print(f"{word:3} : {word_counts[word]}")
+    print(f"{word:{longest_word_length}} : {word_counts[word]}")
 
