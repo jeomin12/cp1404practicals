@@ -1,0 +1,7 @@
+#wdjvwuedv
+aekjbwejhf
+#wekhvweucv
+
+Write code that creates file from a list of strings
+Each file should be named with the value of a string with a .txt extension. If the string is "Bob", create a file called "Bob.txt".
+Write the string to the file
